@@ -42,7 +42,7 @@ The dataset is collected from kaggle - https://www.kaggle.com/datasets/jackdaoud
 22. AcceptedCmp4: 1 if customer accepted the offer in the 4th campaign, 0 otherwise
 23. AcceptedCmp5: 1 if customer accepted the offer in the 5th campaign, 0 otherwise
 24. AcceptedCmp1: 1 if customer accepted the offer in the 1st campaign, 0 otherwise
-25. AcceptedCmp2: 2 if customer accepted the offer in the 1st campaign, 0 otherwise
+25. AcceptedCmp2: 1 if customer accepted the offer in the 2nd campaign, 0 otherwise
 26. Response: 1 if customer accepted the offer in the last campaign, 0 otherwise
 27. Complain: 1 if a customer complained in the last 2 years, 0 otherwise
 28. Country: Customer’s location
