@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-Welcome to the Netflix Recommendation System project! This project aims to develop a recommendation system for Netflix users based on their viewing history and preferences. By leveraging machine learning algorithms and data analysis techniques, I strive to deliver personalized recommendations to enhance the user experience on the platform.
+Welcome to the Netflix Recommendation System project! This project aims to develop a recommendation system for Netflix users based on their viewing history and preferences. By leveraging machine learning algorithm SVD and data analysis techniques, I strive to deliver personalized recommendations to enhance the user experience on the platform.
 
 
 ## Objectives
