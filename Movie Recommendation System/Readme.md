@@ -10,6 +10,22 @@ Welcome to the Netflix Recommendation System project! This project aims to devel
 2. Create Model that finds the best suited Movie for one user in every genre.
 3. Find what Genre Movies have received the best and worst ratings based on User Rating.
 
+## Algorithm Information
+### Singular Value Decomposition (SVD)
+
+SVD is a mathematical technique used in linear algebra and numerical analysis. It decomposes a matrix A into three matrices: U, Σ, and V^T. In the context of collaborative filtering for recommendation systems, the user-item interaction matrix is decomposed using SVD. The resulting matrices U, Σ, and V^T are employed to make recommendations for missing values in the original matrix.
+
+### Power Iteration
+
+Power iteration is an iterative method to find the dominant eigenvalue and corresponding eigenvector of a matrix. In the context of SVD, power iteration is used to find singular vectors and values. The algorithm converges to the dominant singular vector and value by updating vectors at each iteration.
+
+### Deflation
+
+Deflation is a technique used in SVD to iteratively find subsequent singular vectors and values. It involves subtracting the contributions of already computed singular vectors and values from the original matrix. This process helps in finding a series of singular vectors and values that approximate the original matrix.
+
+### Truncation Parameter (k)
+
+The parameter k in SVD represents the number of singular values and their corresponding vectors to retain during truncation. It determines the dimensionality of the approximation to the original matrix. The choice of k is a trade-off between dimensionality reduction and preserving information.
 
 
 ## Dataset Information
